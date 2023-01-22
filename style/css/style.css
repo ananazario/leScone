@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+[class^="grid-"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 479px) and (max-width: 767px) {
+  [class^="grid-"] {
+    width: 100%;
+    float: none;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.grid-1 {
+  margin-left: calc(8.3333333333% + 10px);
+}
+
+.grid-2 {
+  margin-left: calc(16.6666666667% + 10px);
+}
+
+.grid-3 {
+  margin-left: calc(25% + 10px);
+}
+
+.grid-4 {
+  margin-left: calc(33.3333333333% + 10px);
+}
+
+.grid-5 {
+  margin-left: calc(41.6666666667% + 10px);
+}
+
+.grid-6 {
+  margin-left: calc(50% + 10px);
+}
+
+.grid-7 {
+  margin-left: calc(58.3333333333% + 10px);
+}
+
+.grid-8 {
+  margin-left: calc(66.6666666667% + 10px);
+}
+
+.grid-9 {
+  margin-left: calc(75% + 10px);
+}
+
+.grid-10 {
+  margin-left: calc(83.3333333333% + 10px);
+}
+
+.grid-11 {
+  margin-left: calc(91.6666666667% + 10px);
+}
+
+.grid-12 {
+  margin-left: calc(100% + 10px);
+}
+
+@media screen and (min-width: 479px) and (max-width: 767px) {
+  .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12 {
+    margin-left: 0px;
+  }
+}
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  position: relative;
+}
+@media screen and (min-width: 767px) and (max-width: 1199px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 479px) and (max-width: 767px) {
+  .container {
+    max-width: 480px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.container::after, .container::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div {
+  background: rgba(0, 0, 0, 0.4);
+  min-height: 50px !important;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
